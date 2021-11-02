@@ -1,0 +1,51 @@
+.main-nav {
+  padding-left: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  min-height: 70px;
+  color: #00285f;
+}
+
+.main-nav h4{ 
+  line-height: 28px;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 24px;
+  width: 170px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  font-style: normal;
+  font-size: 18px;
+}
+
+.main-menu a.active {
+  font-weight: bold;
+}
+
+.main-menu a:hover {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+  width: 59px;
+  height: 28px;
+}
+
+.navbar-toggler.collapsed {
+  border: none;
+}
+
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 4px;
+  background-color: #00285f;
+  margin-bottom: 5px;
+  }
+
+

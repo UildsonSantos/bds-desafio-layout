@@ -24,3 +24,7 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
+
+body {
+  min-width: 320px;
+}
