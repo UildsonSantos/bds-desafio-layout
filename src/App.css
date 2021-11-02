@@ -25,6 +25,12 @@ a:hover {
   color: unset;
 }
 
+.base-card {
+  background: #ededed;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
 body {
   min-width: 320px;
 }
