@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -8,9 +9,9 @@ const Search = () => {
        <input type="text" />
       </div>
       <div className="search-button">
-        <a href="/catalogs">
+        <Link to="/catalogs">
           <button className="btn btn-secondary fw-bold">BUSCAR</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

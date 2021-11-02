@@ -8,19 +8,19 @@ const Catalog = () => {
           <Search />
         </div>
       <div className="row">
-        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
           <Card />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
           <Card />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
           <Card />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
           <Card />
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
           <Card />
         </div>
       </div>

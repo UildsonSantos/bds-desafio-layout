@@ -156,24 +156,3 @@
   }
 }
 
-@media (min-width: 1400px) {
-  .row {
-    width: 1344px;
-  }
-
-  .container {
-    min-width: 1344px;
-  }
-  .base-card.card {
-    width: 306px;
-    margin-top: 15px;
-  }
-
-  .card-container {
-    width: 266px;
-  }
-
-  .card-bottom {
-    width: 266px;
-  }
-}

@@ -1,15 +1,11 @@
 import 'assets/styles/custom.scss';
-import Navbar from 'components/Navbar';
-import Search from 'components/Search';
+import Routes from 'Routes';
 
 import './App.css';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Search />      
-    </>
+    <Routes />
   );
 }
 

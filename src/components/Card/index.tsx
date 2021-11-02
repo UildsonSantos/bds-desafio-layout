@@ -1,4 +1,5 @@
 import CardImg from 'assets/images/car-card.png';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -13,9 +14,9 @@ const Card = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
       </div>
       <div className="card-bottom">
-        <a href="/catalogs">
+        <Link to="/catalogs">
           <button className="btn btn-secondary fw-bold">COMPRAR</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

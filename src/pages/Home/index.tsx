@@ -1,4 +1,5 @@
 import MainImage from 'assets/images/car-header.png';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -17,9 +18,9 @@ const Home = () => {
         </div>
       </div>
       <div className="base-card sub-home-card">
-        <a href="/catalogs">
+        <Link to="/catalogs">
           <button className="btn btn-secondary fw-bold">VER CATÁLOGO</button>
-        </a>
+        </Link>
         <p>Comece agora a navegar</p>
       </div>
     </div>
